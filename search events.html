@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+<input type="search" id="myInput" onsearch="myFunction()">
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+   var x = document.getElementById("myInput");
+   document.getElementById("demo").innerHTML = "You are searching for: " + x.value;
+}
+</script>
+
+</body>
+</html>
